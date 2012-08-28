@@ -1,0 +1,22 @@
+url: http://example.com.invalid
+cdn: http://cdn.example.com.invalid
+secure_cdn: https://cdn.example.com.invalid
+
+title: My new site (example.com.invalid)
+description: Best thing in world.
+language: fi
+theme: default
+
+style_version: dev
+scripts_version: dev
+
+author: My Name
+email: email@example.com.invalid
+
+markdown: rdiscount
+pygments: true
+exclude:
+    - README.md
+    - requirements.txt
+
+permalink: pretty
