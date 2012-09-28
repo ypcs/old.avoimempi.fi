@@ -1,6 +1,3 @@
 [submodule "data"]
 	path = data
 	url = git://github.com/ypcs/data.avoimempi.fi.git
-[submodule "media/common/css"]
-	path = media/common/css
-	url = git://github.com/ypcs/site-media.git
