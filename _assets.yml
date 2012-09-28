@@ -6,7 +6,12 @@ updater: timestamp
 bundles:
     css_common:
         filters: scss
-        output: gen/common.tmp.css
+        output: gen/styles-%(version)s.css
         contents:
             - common/css/common.scss
-#            - css/menu.scss
+    js_all:
+        filters: closure_js
+        output: gen/scripts-%(version)s.js
+        contents:
+            - common/js/jquery-1.8.2.min.js
+            - common/js/handlebars-1.0.rc.1.js
