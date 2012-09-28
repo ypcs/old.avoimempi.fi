@@ -1,0 +1,13 @@
+@import "../common/css/define.scss";
+
+html, body {
+    background: #e4fad4;
+    color: #000;
+}
+
+#page {
+    width: $page_width;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
