@@ -1,0 +1,3 @@
+[submodule "media/common"]
+	path = media/common
+	url = git://github.com/ypcs/site-media.git
