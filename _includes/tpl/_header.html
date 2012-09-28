@@ -39,9 +39,7 @@
 	{% if page.tags %}
 	<meta name="keywords" content="{{ page.tags | array_to_string }}"/>
 	{% endif %}
-{% unless site.style_version == 'dev' %}
     <link rel="stylesheet" href="{{ site.cdn }}/media/gen/styles-{{ site.style_version }}.css" title="Default theme"/>
-{% endunless %}
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml" />
 
 {% comment %}
