@@ -1,17 +1,17 @@
-url: http://example.com.invalid
-cdn: http://cdn.example.com.invalid
+url: http://avoimempi.fi
+cdn: http://cdn.avoimempi.fi
 secure_cdn: https://cdn.example.com.invalid
 
-title: My new site (example.com.invalid)
-description: Best thing in world.
+title: Avoimempi.fi
+description: Avoimempi
 language: fi
 theme: default
 
 style_version: dev
 scripts_version: dev
 
-author: My Name
-email: email@example.com.invalid
+author: Ville Korhonen
+email: ville.korhonen@vihreat.fi
 
 markdown: rdiscount
 pygments: true
