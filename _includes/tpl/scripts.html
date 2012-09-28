@@ -1,0 +1,12 @@
+{% unless page.noscripts %}
+{% unless site.scripts_version == 'dev' %}
+<script async="async" src="{{ site.cdn }}/media/gen/scripts-{{ site.scripts_version }}.js"></script>
+{% endunless %}
+
+{% if page.scripts %}
+{% for s in page.scripts %}
+<script async="async" src="{{ site.cdn }}/{{ s }}"></script>
+{% endfor %}
+{% endif %}
+
+{% endunless %}
