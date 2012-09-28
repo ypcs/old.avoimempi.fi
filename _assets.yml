@@ -1,0 +1,12 @@
+directory: media
+url: /media
+debug: True
+updater: timestamp
+
+bundles:
+    css_common:
+        filters: scss
+        output: gen/common.tmp.css
+        contents:
+            - common/css/common.scss
+#            - css/menu.scss
